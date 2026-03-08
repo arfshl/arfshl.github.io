@@ -1,0 +1,26 @@
+{
+  "name": "arfshl.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "tailwindcss -i ./src/input.css -o ./src/main.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./src/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arfshl/arfshl.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/arfshl/arfshl.github.io/issues"
+  },
+  "homepage": "https://github.com/arfshl/arfshl.github.io#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "tailwindcss": "^4.2.1"
+  }
+}
