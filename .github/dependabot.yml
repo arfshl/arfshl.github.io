@@ -10,12 +10,12 @@ updates:
           - "*" # Groups all action updates into one PR
 
    - package-ecosystem: "npm"
-     directory: "/frontend"
+     directory: "/"
      schedule:
-       interval: "daily
-         groups:
-     github-actions-updates:
-       patterns:
-         - "*" # Groups all action updates into one PR
+       interval: "wwekly"
+     groups:
+       github-actions-updates:
+         patterns:
+           - "*" # Groups all action updates into one PR
 
      
