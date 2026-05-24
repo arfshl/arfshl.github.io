@@ -3,19 +3,17 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly" # Checks every week
+      interval: "weekly" 
     groups:
       github-actions-updates:
         patterns:
-          - "*" # Groups all action updates into one PR
-
-   - package-ecosystem: "npm"
-     directory: "/"
-     schedule:
-       interval: "wwekly"
-     groups:
-       github-actions-updates:
-         patterns:
-           - "*" # Groups all action updates into one PR
-
-     
+          - "*" 
+  
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly" 
+    groups:
+      npm-updates:       
+        patterns:
+          - "*" 
