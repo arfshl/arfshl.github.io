@@ -13,12 +13,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/arfshl/arfshl.github.io/issues"
   },
-  "homepage": "https://github.com/arfshl/arfshl.github.io#readme",
+  "homepage": "https://github.com/arfshl/arfshl.github.io",
   "devDependencies": {
     "@tailwindcss/cli": "^4.2.1",
     "tailwindcss": "^4.2.1"
